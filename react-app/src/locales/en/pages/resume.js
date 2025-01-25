@@ -39,7 +39,7 @@ const resume = {
                 skills: "Leadership · Project Management · PHP · Laravel · Inertia · Javascript · Typescript · Vue.js · React JS · Git Node.js · Design Patterns · Clean Code · Jest · Cypress · EsLint · Design System · Storybook"
             },
             face: {
-                period: "MAR/2023 - Now",
+                period: "MAR/2023 - JAN/2024",
                 role: "Senior Full-stack Developer",
                 location: "Santa Catarina, Brasil",
                 company: "FACE Digital",
