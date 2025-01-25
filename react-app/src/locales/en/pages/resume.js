@@ -4,7 +4,7 @@ const resume = {
     },
     profile: {
         name: "Luciano Braga",
-        title: "Senior Full Stack Developer ",
+        title: "Senior Full Stack Developer / Tech Lead",
         description: "Working in software development since 2007, focusing on using technology to solve practical problems across web, mobile, and desktop platforms. My passion for programming has driven me to continuously expand my skills and take on challenging projects."
     },
     contacts: {
