@@ -4,9 +4,9 @@ const resume = {
     },
     profile: {
         name: "Luciano Braga",
-        title: "Desenvolvedor Full Stack Sênior",
-        description: "Atuando com desenvolvimento de software desde 2007, com foco no uso de tecnologia e programação, para resolver problemas práticos em plataformas web, mobile e desktop. Minha paixão por programação me levou a continuamente expandir minhas habilidades e enfrentar projetos desafiadores.",
-        skills: "Javascript · Typescript · Vue.js · HTML 5 · React JS · Git · GitFlow · Node.js · CSS/Modules · BEM · AngularJS · REST · Design Patterns · Clean Code · Jest · Cypress · EsLint · Prettier · Commit-lint · Design System · Storybook · Micro-Frontend"
+        title: "Desenvolvedor Full Stack Sênior / Tech Lead",
+        description: "Atuando com desenvolvimento de software desde 2007, com foco no uso de tecnologia, para resolver problemas práticos em plataformas web, mobile e desktop. Minha paixão por programação me levou a continuamente expandir minhas habilidades e enfrentar projetos desafiadores.",
+        skills: "Javascript · Typescript · Vue.js · HTML 5 · React JS · Git · GitFlow · Node.js · Design Patterns · Clean Code · Jest · Cypress · EsLint · Design System · Storybook "
     },
     contacts: {
         title: "Contatos"
@@ -31,8 +31,16 @@ const resume = {
     experiences: {
         title: "Experiência Profissional",
         companies: {
+            plural: {
+                period: "ABR/2024 - Atual",
+                role: "Tech Lead",
+                location: "Ceará, Brasil",
+                company: "Grupo PluralMed",
+                description: 'Liderando a equipe de desenvolvedores do grupo PluralMed, tenho sido responsável por direcionar projetos estratégicos e arquitetar soluções tecnológicas que impulsionam o time. Meu foco foi criar um ambiente colaborativo e orientado a resultados, promovendo o crescimento técnico da equipe e a adoção eficaz de metodologias ágeis.',
+                skills: "Liderança · Gestão de Projetos · PHP · Laravel · Inertia · Javascript · Typescript · Vue.js · React JS · Git Node.js · Design Patterns · Clean Code · Jest · Cypress · EsLint · Design System · Storybook"
+            },
             face: {
-                period: "MAR/2023 - Atual",
+                period: "MAR/2023 - JAN/2024",
                 role: "Senior Full-stack Developer",
                 location: "Santa Catarina, Brasil",
                 company: "FACE Digital",
@@ -87,8 +95,8 @@ const resume = {
                 period: "2007 - 2013",
                 role: "Desenvolvedor Web",
                 location: "Ceará, Brasil",
-                company: "Freelancer",
-                description: 'Estudando programação web desde 2007, inicio como freelancer desenvolvendo sites para empresas de diversos segmentos e regiões do Brasil utilizando tecnologias como: HTML, CSS, Javascript, PHP e MySQL.'
+                company: "Autônomo",
+                description: 'Inicio minha carreira como Desenvolvedor Web em 2007, criando soluções personalizadas para empresas de diversos segmentos no Brasil. Com expertise em HTML, CSS, JavaScript, PHP e MySQL, desenvolvi sites funcionais e otimizados, focando na melhor experiência para o usuário.'
             }
         }
     },
