@@ -5,7 +5,7 @@ const resume = {
     profile: {
         name: "Luciano Braga",
         title: "Senior Full Stack Developer ",
-        description: "I have been involved in software development since 2007, with a focus on using technology, particularly computer programming, to solve practical problems across web, mobile, and desktop platforms. My passion for programming has driven me to expand my skills and tackle challenging projects continually."
+        description: "Working in software development since 2007, focusing on using technology to solve practical problems across web, mobile, and desktop platforms. My passion for programming has driven me to continuously expand my skills and take on challenging projects."
     },
     contacts: {
         title: "Contacts"
@@ -30,6 +30,14 @@ const resume = {
     experiences: {
         title: "Professional Experiences",
         companies: {
+            plural: {
+                period: "APR/2024 - Atual",
+                role: "Tech Lead",
+                location: "Ceará, Brasil",
+                company: "PluralMed Group",
+                description: "Leading the development team at PluralMed Group, I have been responsible for guiding strategic projects and designing technological solutions that drive the team forward. My focus has been on creating a collaborative and results-oriented environment, fostering the team's technical growth and the effective adoption of agile methodologies.",
+                skills: "Leadership · Project Management · PHP · Laravel · Inertia · Javascript · Typescript · Vue.js · React JS · Git Node.js · Design Patterns · Clean Code · Jest · Cypress · EsLint · Design System · Storybook"
+            },
             face: {
                 period: "MAR/2023 - Now",
                 role: "Senior Full-stack Developer",
@@ -85,9 +93,9 @@ const resume = {
                 period: "2007 - 2013",
                 role: "Web Developer",
                 location: "Ceará, Brazil",
-                company: "Freelancer",
-                description: 'Having studied web programming since 2007, I began as a freelancer, developing websites for companies in various segments and from different regions of Brazil, utilizing technologies such as: HTML, CSS, Javascript, PHP and MySQL.'
-            }
+                company: "Self-Employed",
+                description: "I started my career as a Web Developer in 2007, creating customized solutions for companies across various industries in Brazil. With expertise in HTML, CSS, JavaScript, PHP, and MySQL, I developed functional and optimized websites, focusing on the best user experience."
+            }            
         }
     },
     footer: {
