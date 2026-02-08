@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from '@testing-library/react'
+import App from './App'
+import i18n from './i18n'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+beforeAll(async () => {
+  await i18n.changeLanguage('pt_BR')
+})
+
+test('renders resume header content', () => {
+  render(<App />)
+  const titleElement = screen.getByText(/Desenvolvedor Full Stack Sênior/i)
+  expect(titleElement).toBeInTheDocument()
+})

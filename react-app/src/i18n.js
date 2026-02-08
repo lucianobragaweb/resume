@@ -19,6 +19,9 @@ i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
         escapeValue: false
     },
     resources: {
+        ar: {
+            translation: locales.ar
+        },
         de: {
             translation: locales.de
         },
@@ -31,8 +34,20 @@ i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
         fr: {
             translation: locales.fr
         },
+        hi: {
+            translation: locales.hi
+        },
+        ja: {
+            translation: locales.ja
+        },
         pt_BR: {
             translation: locales.pt_BR
+        },
+        ru: {
+            translation: locales.ru
+        },
+        zh: {
+            translation: locales.zh
         }
     }
 })

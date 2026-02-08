@@ -1,7 +1,6 @@
-import Header from '@components/Header';
-import Sidebar from './Sidebar';
-import Timeline from './Timeline';
-import Footer from '@components/Footer';
+import Header from '@components/Header'
+import Footer from '@components/Footer'
+import { Sidebar, Timeline } from '../../features/resume/components'
 
 export default function Resume () {
     return (

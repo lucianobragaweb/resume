@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Structure (Summary)
+
+- `src/pages/resume`: página principal renderizada por `App`
+- `src/components`: componentes reutilizáveis
+- `src/content`: dados estáticos do currículo
+- `src/features/resume/components`: componentes específicos da página resume
+- `src/locales`: traduções i18n
+
+Aliases (via `react-app-rewired` + `jsconfig.json`):
+- `@components/*` -> `src/components/*`
+- `@assets/*` -> `src/assets/*`
+- `@content/*` -> `src/content/*`
+
 ## Available Scripts
 
 In the project directory, you can run:
