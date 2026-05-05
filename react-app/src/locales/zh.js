@@ -31,8 +31,16 @@ const resume = {
     experiences: {
         title: "工作经历",
         companies: {
+            suzano: {
+                period: "2025年4月 - 至今",
+                role: "高级软件工程师",
+                location: "圣保罗, 巴西",
+                company: "Suzano S/A",
+                description: "Suzano 是全球最大的纸浆生产商，拉丁美洲领先的纸张制造商之一，也是全球纸张和纸浆解决方案的领导者。在 Suzano，我担任高级软件工程师，致力于开发创新的技术解决方案，推动公司的运营效率和数字化转型。我的工作涉及与跨学科团队合作，运用最佳的软件开发实践和现代技术，构建稳健且可扩展的系统。",
+                skills: "Next.js · React JS · Node.js · Nest.js · Typescript · Git · 设计模式 · 清洁代码 · Jest · Cypress · EsLint · 设计系统 · Storybook"
+            },
             plural: {
-                period: "2024年4月 - 至今",
+                period: "2024年4月 - 2025年4月",
                 role: "技术负责人",
                 location: "Ceará, 巴西",
                 company: "Grupo PluralMed",

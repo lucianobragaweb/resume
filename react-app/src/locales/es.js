@@ -31,8 +31,16 @@ const resume = {
     experiences: {
         title: "Experiencia Profesional",
         companies: {
+            suzano: {
+                period: "ABR/2025 - Actual",
+                role: "Sr. Software Engineer",
+                location: "São Paulo, Brasil",
+                company: "Suzano S/A",
+                description: "Suzano es la mayor productora mundial de celulosa, una de las mayores fabricantes de papel de América Latina y líder global en soluciones de papel y celulosa. En Suzano, me desempeño como ingeniero de software sénior, contribuyendo al desarrollo de soluciones tecnológicas innovadoras que impulsan la eficiencia operativa y la transformación digital de la empresa. Mi función implica colaborar con equipos multidisciplinarios para crear sistemas robustos y escalables, utilizando las mejores prácticas de desarrollo de software y tecnologías modernas.",
+                skills: "Next.js · React JS · Node.js · Nest.js · Typescript · Git · Design Patterns · Clean Code · Jest · Cypress · EsLint · Design System · Storybook"
+            },
             plural: {
-                period: "ABR/2024 - Actual",
+                period: "ABR/2024 - ABR/2025",
                 role: "Tech Lead",
                 location: "Ceará, Brasil",
                 company: "Grupo PluralMed",

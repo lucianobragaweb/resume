@@ -31,8 +31,16 @@ const resume = {
     experiences: {
         title: "職務経歴",
         companies: {
+            suzano: {
+                period: "2025年4月 - 現在",
+                role: "シニアソフトウェアエンジニア",
+                location: "サンパウロ, ブラジル",
+                company: "Suzano S/A",
+                description: "Suzanoは、世界最大のパルプ生産者であり、ラテンアメリカ有数の製紙会社であり、紙・パルプソリューションの世界的リーダーです。Suzanoでは、シニアソフトウェアエンジニアとして、企業の業務効率と デジタルトランスフォーメーションを推進する革新的な技術ソリューションの開発に貢献しています。私の役割は、多分野にわたるチームと協力し、最新の技術とソフトウェア開発のベストプラクティスを活用して、堅牢でスケーラブルなシステムを構築することです。",
+                skills: "Next.js · React JS · Node.js · Nest.js · Typescript · Git · デザインパターン · クリーンコード · Jest · Cypress · EsLint · デザインシステム · Storybook"
+            },
             plural: {
-                period: "2024年4月 - 現在",
+                period: "2024年4月 - 2025年4月",
                 role: "テックリード",
                 location: "Ceará, ブラジル",
                 company: "Grupo PluralMed",
