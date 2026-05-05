@@ -1,5 +1,15 @@
 const experiences = [
     {
+        key: 'suzano',
+        roleKey: 'resume.experiences.companies.suzano.role',
+        periodKey: 'resume.experiences.companies.suzano.period',
+        companyKey: 'resume.experiences.companies.suzano.company',
+        locationKey: 'resume.experiences.companies.suzano.location',
+        descriptionKey: 'resume.experiences.companies.suzano.description',
+        skillsKey: 'resume.experiences.companies.suzano.skills',
+        leftClassName: 'w-4/12 md:w-48 flex-none relative border-r border-neutral-400 pr-4'
+    },
+    {
         key: 'plural',
         roleKey: 'resume.experiences.companies.plural.role',
         periodKey: 'resume.experiences.companies.plural.period',
